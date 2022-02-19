@@ -1,5 +1,12 @@
 body {
   background-color: black;
+  
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .App{
@@ -16,4 +23,18 @@ body {
 
 .row{
   display: flex;
+}
+
+@media screen and (max-width: 576px){
+ 
+  .calc-wrapper{
+    overflow-y: scroll;
+    height: 50vh;
+    width: 100vw;
+    
+  }
+  .App{
+    position: absolute;
+    top: 25vh;
+  }
 }

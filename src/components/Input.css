@@ -1,10 +1,10 @@
 .input-wrapper{
-    height: 10em;
+    height: 8em;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-    padding: 16px;
+    padding: 1rem;
 }
 .result{
     flex:1;
