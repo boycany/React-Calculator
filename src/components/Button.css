@@ -11,5 +11,5 @@
     
     margin: 4px;
     border-radius: 16px;
-    box-shadow: 2px 2px gray;
+    box-shadow: inset 0px -2px gray;
 }
