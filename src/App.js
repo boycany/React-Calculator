@@ -4,6 +4,7 @@ import Button from './components/Button.js'
 import Input  from './components/Input.js'
 import * as math from 'mathjs'
 
+
 const App = () => {
 
   const [text, setText] = useState('')
@@ -39,6 +40,7 @@ const App = () => {
   const buttonColor = '#f2a33c'
 
   return (
+
     <div className='container'>
       <div className="App">
         <div className="calc-wrapper">
@@ -74,6 +76,7 @@ const App = () => {
         </div>
       </div>
     </div>
+
   );
 }
 
