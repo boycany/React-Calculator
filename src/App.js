@@ -11,11 +11,7 @@ const App = () => {
 
   const addtoText = (value) => {
     setText(text=>{
-      // if(text.length < 22){    //防止Text欄位超過長度
-      //   return  text + value
-      // }else{
         return text + value
-      // }
     })
   }
 
@@ -33,11 +29,7 @@ const App = () => {
    
     if(result > Math.pow(2, 32)){
       setResult('超過數字上限！')  
-    }
-    // else if(String(result).includes('.') && String(result).length > 12 ) {
-    //   setResult(String(result.toFixed(4)))
-    //   setText(String(result))
-    else{
+    }else{
       setResult(String(result))
       setText(String(result))
     }
@@ -45,7 +37,6 @@ const App = () => {
   }
 
   const buttonColor = '#f2a33c'
-  console.log(typeof result)
 
   return (
     <div className="App">
