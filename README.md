@@ -1,7 +1,7 @@
 # React Calculator 計算機 
 
 [Demo](https://boycany.github.io/React-Calculator/) 
-## 作品說明
+## 操作說明
 
 * 
 ## 框架
