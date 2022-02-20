@@ -4,13 +4,13 @@ import App from './App'
 
 const AppContainer = () => {
  
-    return ( window.screen.width > 576
-        ? <Draggable>
+    return ( window.screen.width > 576 
+        ? <Draggable>          
             <div>
                 <App />
             </div>       
         </Draggable>
-        : <div>
+        : <div>         
             <App />
         </div>      
     )  

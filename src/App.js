@@ -12,20 +12,20 @@ const App = () => {
 
   const addtoText = (value) => {
     setText(text=>{
-        return text + value
+        return text + value      //type: string
     })
   }
 
-  const resetInput = () => {
+  const resetInput = () => {    //For Clear Button
     setText('')
     setResult('')
   }
 
-  const undoInput = () => {
+  const undoInput = () => {    //For Back Button
     setText(text.substring(0, text.length-1))  
   }
 
-  const calculateResult = () => {
+  const calculateResult = () => { //For Equal Button
     const result = math.evaluate(text)  //return type: Number    
    
     if(result > Math.pow(2, 32)){
@@ -37,7 +37,7 @@ const App = () => {
         
   }
 
-  const buttonColor = '#f2a33c'
+  const buttonColor = '#f2a33c'   //color for +, -, *, /
 
   return (
 

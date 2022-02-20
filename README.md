@@ -5,7 +5,7 @@
 [Demo](https://boycany.github.io/React-Calculator/) 
 ## 操作說明
 
-1. 按下數字及運算子區塊輸入算式，會顯示在算式列
+1. 按下數字及運算子區塊的按鍵來輸入算式，會顯示在算式列
 
 ![1-輸入算式](https://github.com/boycany/React-Calculator/blob/main/documents/calc-1.png)
 
@@ -32,7 +32,7 @@
 
 7. 電腦版使用者可將計算機拖拉至瀏覽器畫面內任一位置操作。
 
-![7-電腦版使用者可拖拉計算機](https://github.com/boycany/React-Calculator/blob/main/documents/calc-7.png)
+![7-電腦版使用者可拖拉計算機](https://github.com/boycany/React-Calculator/blob/main/documents/calc-7.gif)
 
 8. 手機版使用者可以上下捲動畫面操作。
 
